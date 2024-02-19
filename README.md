@@ -13,6 +13,6 @@ pip install ollama_cli
 Usage is as simple as:
 
 ```bash
-ollama_cli
+python ollama_cli
 ```
 

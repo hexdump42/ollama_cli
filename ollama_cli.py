@@ -60,9 +60,9 @@ def cli() -> int:
     )
 
     parser.add_argument(
-        "model",
-        nargs="?",
-        help="LLM modle to use, if omitted use llama2",
+        "--model",
+        action="store",
+        help="LLM model to use, if omitted use llama2",
         default="llama2",
     )
 
